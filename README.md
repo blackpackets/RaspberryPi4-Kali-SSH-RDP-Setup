@@ -1,20 +1,21 @@
-# How to Install Kali Linux on Raspberry Pi 4 and Access It with SSH and Remote Desktop from Windows
+# How to Install Kali Linux on Raspberry Pi 4 and Access It with SSH and Remote Desktop from Windows Machine
 
 This step-by-step guide shows how to install Kali Linux on a Raspberry Pi 4 and access it from Windows using SSH and Remote Desktop. It includes flashing the Kali ARM image, identifying the Raspberry Pi IP address on the network, logging in with PuTTY, changing the default username and password, setting a static IP, and enabling XRDP for desktop access.
+---
 
 **Hardware used**
 - **Raspberry Pi 4 (8GB)**
 - **SanDisk Ultra microSD 32GB**
 
 It covers:
-- flashing the Kali ARM image
-- getting the Raspberry Pi IP address via **DHCP**
-- finding the Pi on the network using **Nmap/Zenmap**
-- first login using **PuTTY**
-- changing the default credentials
-- setting a static IP
-- enabling **Remote Desktop Connection**
-- fixing the lock screen name if it still shows `kali`
+- Flashing the Kali ARM image
+- Getting the Raspberry Pi IP address via **DHCP**
+- Finding the Pi on the network using **Nmap/Zenmap**
+- First login using **PuTTY**
+- Changing the default credentials
+- Setting a static IP
+- Enabling **Remote Desktop Connection**
+- Fixing the lock screen name if it still shows `kali`
 
 ## What this guide uses
 - **Kali ARM image**: https://www.kali.org/get-kali/#kali-arm
